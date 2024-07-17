@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  scroll-behavior: smooth;
+  -webkit-box-sizing: border-box;
+}
+:root{
+  --color-black:black;
+}
+
+tr{
+  text-align: center;
+}
+.body::-webkit-scrollbar{
+  width:12px;
+  display:none;
+} 
+
+li{
+  list-style-type: none;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.body{
+  background:url("../img/Design.jpg");
+  object-fit: contain;
+  z-index: -1;
+  
+}
