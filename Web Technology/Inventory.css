@@ -1,0 +1,63 @@
+*{
+    outline:none;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --main-color: black;
+}
+::-webkit-scrollbar{
+    width:12px;
+
+}
+
+.arrStocks{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    padding:5px 20px;
+    margin:20px;
+}
+.arrStocks div{
+    padding:5px;
+}
+.arrStocks button{
+    margin-left:20px;
+}
+.btnDelete{
+    border:none;
+    padding:2px 15px;
+    border-radius: 15px;
+    background-color: rgb(199, 161, 113);
+}
+.btnSubmit,.btnDisplay,.btnTotal{
+    width:120px;
+    padding:5px;
+    background-color: rgb(199, 161, 113);
+    box-shadow: 0 0 1 var(--black);
+    border:none;
+    border-radius: 10px;
+}
+button{
+    cursor:pointer;
+}
+input{
+    width:187px;
+    padding:5px;
+    border-radius: 10px;
+    border:none;
+
+}
+.displayTotal{
+ margin:10vw;   
+ width:200px;
+ padding:10px;
+ font-weight: lighter;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ border:1px solid black;
+ font-size: 20px;
+}

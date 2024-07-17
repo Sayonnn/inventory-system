@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Inventory.css" type="text/css">
+    <title>Inventory System</title>
+</head>
+<body style = "background-color: bisque;width:100%;">
+    <center><h3 style = "margin-top:30px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: lighter;">Laud Zion Cascalla - Inventory Management System</h3></center>
+    <center><img src="shitzu.png" alt=""style = "margin:0;padding:0;"></center>
+    <center><section>
+        <input class = "itemName" placeholder="Item Name"></input>
+        <input class = "price" placeholder="Price"> </input>
+        <input class = "date" placeholder="Date"></input>
+        <input class="soldItems" placeholder="Sold Items"></input>
+    </section></center>
+    
+    <center>
+        <section style = "margin-top:15px;">
+            <button  class = "btnSubmit" onclick = "storeItem();">Submit</button>
+            <button class = "btnDisplay" onclick = "viewStocks();">View Stocks</button>
+            <button  class = "btnTotal" onclick = "total();">Total</button>
+        </section>
+    </center>
+    
+    <div class = "outputs"></div>
+    <center><div class="displayTotal"></div></center>
+<script src = "Inventory.js"></script>
+</body>
+</html>
